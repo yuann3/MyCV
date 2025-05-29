@@ -190,10 +190,26 @@
 
     \vspace{5 pt - 0.3 cm}
 
-
-    \section{Summary}
+        \section{Summary}
         \begin{onecolentry}
-            Resourceful IT graduate fueled by Rust, Go, and backend systems. Seeking a junior backend engineer role to own high-impact APIs and microservices.
+            After rediscovering my obsession with systems programming, I dove deep into low-level projects, building interpreters, servers, and Redis clones from scratch — all while leading peer learning sessions and tackling AI-driven backends.
+        \end{onecolentry}
+        
+\section{Skills \& Technologies}
+        \begin{onecolentry}
+            \textbf{Programming Languages:} Go, Rust, Python, C/C++, Java, SQL, JavaScript (Node.js), C\# 
+        \end{onecolentry}
+        
+        \vspace{0.1 cm}
+        
+        \begin{onecolentry}
+            \textbf{Technology:} Redis, SQLite, MSSQL, Docker, Flask, React.js, ASP .NET, .NET MAUI, Raylib, Neovim, GDB, Linux
+        \end{onecolentry}
+        
+        \vspace{0.1 cm}
+        
+        \begin{onecolentry}
+            \textbf{Concepts:} Systems Programming, Distributed Systems, RAG, API Design, Multithreading, TDD, CI/CD
         \end{onecolentry}
 
     \section{Education}
@@ -218,58 +234,27 @@
             \textbf{PSB Academy, Singapore}, Diploma in InfoComm Technology\end{twocolentry}
 
 
-        \section{Skills \& Technologies}
         
-        \subsection*{Technical Skills}
-        \begin{onecolentry}
-            \textbf{Programming Languages:} Go, Rust, Python, C/C++, Java, SQL, JavaScript (Node.js), C\# 
-        \end{onecolentry}
-        
-        \vspace{0.1 cm}
-        
-        \begin{onecolentry}
-            \textbf{Database \& Storage:} MySQL, SQLite, MSSQL, MongoDB, ChromaDB, Redis
-        \end{onecolentry}
-        
-        \vspace{0.1 cm}
-        
-        \begin{onecolentry}
-            \textbf{Frameworks \& Library:} Flask, .NET MAUI, React.js, Node.js, Raylib
-        \end{onecolentry}
-        
-        \vspace{0.1 cm}
-        
-        \begin{onecolentry}
-            \textbf{Platforms \& OS:} Linux (Debian, Arch, Ubuntu), Unix, Windows, MacOS
-        \end{onecolentry}
-        
-        \vspace{0.1 cm}
-        
-        \begin{onecolentry}
-            \textbf{Architecture \& Performance:} System Design, Distributed Systems, API Structuring; Performance Optimization, Debugging, Unit Testing
-        \end{onecolentry}
-        
-        \vspace{0.1 cm}
-        
-        \begin{onecolentry}
-            \textbf{DevOps \& Tools:} Docker, Git, Jira, Tmux, Neovim, GDB, Makefiles
-        \end{onecolentry}
-        
-        \vspace{0.1 cm}
-        
-        \begin{onecolentry}
-            \textbf{AI \& ML:} Retrieval-Augmented Generation, LLM Workflows, Document Processing, Machine Learning, LLM Fine-Tuning
-        \end{onecolentry}
-        
-        \vspace{0.1 cm}
-        
-        \begin{onecolentry}
-            \textbf{Concepts \& Practices:} System Design, Distributed Systems, API Architecture, Performance Optimization, Debugging, TDD, CI/CD, Unit Testing
-        \end{onecolentry}
-
         \section{Experience}        
+
                 \begin{twocolentry}{
-                    Feb 2024 – Present
+                    Jan 2025 – Present
+                }
+                    \textbf{Software Engineering Intern}, The University of Newcastle -- Singapore \end{twocolentry}
+                \vspace{0.10 cm}
+                \begin{onecolentry}
+                    \begin{highlights}
+                        \item Built an RAG (Retrieval-Augmented Generation) AI learning platform with FastAPI, React, and Ollama. 
+                        \item Developed document parsing and Q\&A search using LlamaParse and ChromaDB
+                        \item Handled OAuth-based authentication and file management in a full-stack setup
+                        \item Tool used: JavaScript/TypeScript (React 19, Next.js), Tailwind CSS, Python (Flask REST API, JWT),
+                    \end{highlights}
+                \end{onecolentry}
+                
+                \vspace{0.2 cm}
+        
+                \begin{twocolentry}{
+                    Feb 2024 – Nov 2024
                 }
                     \textbf{Peer Assisted Study Sessions (PASS) Leader}, The University of Newcastle -- Singapore \end{twocolentry}
                 \vspace{0.10 cm}
@@ -279,8 +264,6 @@
                         \item Delivered 10+ technical mini-lectures on algorithm design and coding practices such as recursion and sorting, using live code walkthroughs in Java and DSA to boost comprehension.
                     \end{highlights}
                 \end{onecolentry}
-                
-                \vspace{0.2 cm}
                 
                 \vspace{0.2 cm}
                 
@@ -301,35 +284,66 @@
         \section{Projects}
         
         \begin{twocolentry}{
-            \href{https://github.com/yuann3/Ruskey/}{Personal Project}
+            \href{https://github.com/yuann3/sequel/}{Personal Project}
         }
-            \textbf{Ruskey: Monkey Programming Language Interpreter}\end{twocolentry}
+            \textbf{Sequel: SQLite Parser and Query Engine}\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Built a full-featured interpreter for the Monkey language in Rust, including a lexer, parser, AST, and evaluator, to demonstrate parsing and language runtime implementation.
-                \item Integrated all interpreter components — lexer, parser, AST, and evaluator — with full test coverage to validate correctness and improve debugging efficiency.        
-                \item Supported language features including booleans, integers, closures, and first-class functions to reflect real-world scripting capabilities.
-                \item Tools Used: Rust, Test-Driven Development, Abstract Syntax Trees, Recursive Descent Parsing
+                \item Built a SQLite database engine from scratch in Rust, implementing manual B-tree parsing and binary file I/O to read raw .db files without external dependencies
+                \item Implemented core SQL operations including SELECT queries with WHERE clauses, COUNT aggregation, and index optimization through direct B-tree traversal
+                \item Tools Used: Rust, Binary Parsing, B-tree Data Structures, Database Internals
             \end{highlights}
         \end{onecolentry}
 
         \vspace{0.2 cm} 
-
+        
         \begin{twocolentry}{
-            \href{https://github.com/yuann3/Pew/}{Personal Project}
+            \href{https://github.com/yuann3/Rego/}{Personal Project}
         }
-            \textbf{Rego: Redis DB implementation in Go}\end{twocolentry}
+            \textbf{Rego: Redis Server implementation in Go}\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item Implemented core Redis commands and WAIT replication in Go, passing full Codecrafters tests
-                \item Applied slice optimizations to minimize GC overhead and improved throughput by 30%
+                \item Applied slice optimizations to minimize GC overhead and improved throughput by 30\%
                 \item Tools Used: Golang, Database
             \end{highlights}
         \end{onecolentry}
+
+        \vspace{0.2 cm} 
+        
+        \begin{twocolentry}{
+            \href{https://github.com/yuann3/Ruskey/}{Personal Project}
+        }
+            \textbf{Ruskey: Custom Programming Language Interpreter}\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Built a full-featured interpreter for the Monkey language in Rust, including a lexer, parser, AST, and evaluator, to demonstrate parsing and language runtime implementation.    
+                \item Supported language features including booleans, integers, closures, and first-class functions to reflect real-world scripting capabilities.
+                \item Tools Used: Rust, Test-Driven Development, Abstract Syntax Trees, Recursive Descent Parsing
+            \end{highlights}
+        \end{onecolentry}
+        
+                \vspace{0.2 cm} 
+        \begin{twocolentry}{
+            \href{https://github.com/yuann3/http-rust/}{Personal Project}
+        }
+            \textbf{Rust HTTP Server}\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Developed a multithreaded HTTP/1.1 server in Rust supporting GET/POST requests, file uploads, and gzip compression, with optimized request handling and concurrency.
+                \item Implemented a User-Agent echo endpoint to assist in request debugging and improved response throughput through thread pooling and efficient I/O operations.
+                \item Tools Used: Rust, HTTP/1.1, Multithreading
+            \end{highlights}
+        \end{onecolentry}
+
 
         \vspace{0.2 cm} 
 
@@ -349,85 +363,10 @@
 
 
         \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            \href{https://github.com/yuann3/http-rust/}{Personal Project}
-        }
-            \textbf{Rust HTTP Server}\end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Developed a multithreaded HTTP/1.1 server in Rust supporting GET/POST requests, file uploads, and gzip compression, with optimized request handling and concurrency.
-                \item Implemented a User-Agent echo endpoint to assist in request debugging and improved response throughput through thread pooling and efficient I/O operations.
-                \item Tools Used: Rust, HTTP/1.1, Multithreading
-            \end{highlights}
-        \end{onecolentry}
-
-
-        \vspace{0.2 cm}
         
-        \begin{twocolentry}{
-            \href{https://github.com/yuann3/Hiraku-RAG}{The University of Newcastle}
-        }
-            \textbf{Hiraku: AI-Powered Smart Learning Companion}\end{twocolentry}
-
-        \vspace{0.10 cm}
+         \section{Interests}
         \begin{onecolentry}
-            \begin{highlights}
-                \item Led backend architecture of an AI assistant using Python (Flask) and SQLite, integrating RAG pipelines for intelligent PDF/TXT document parsing and retrieval.
-                \item Built a secure REST API with JWT-based access control and optimized document vector indexing via ChromaDB for fast semantic retrieval.
-                \item Tool Used: JavaScript/TypeScript (React 19, Next.js), Tailwind CSS, Python (Flask REST API, JWT), Database (SQLite)
-            \end{highlights}
+            CLI tools, Computer Graphics, Rock Climbing, Traveling
         \end{onecolentry}
-
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            \href{https://github.com/yuann3/RayRust}{Personal Project}
-        }
-            \textbf{Ray Tracer in Rust}\end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item A ray tracer was developed from scratch in Rust. It features robust 3D vector mathematics, comprehensive operator overloading, and thorough unit testing. An efficient camera system was designed, incorporating viewport calculations and ray generation capabilities. Rust's type system was utilized to ensure strong compile-time guarantees and memory safety
-                \item Tools Used: Rust, Linear Algebra, Computer Graphics, PPM Image Format
-            \end{highlights}
-        \end{onecolentry}
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            \href{https://github.com/yuann3/Ylib}{École 42}
-        }
-            \textbf{Ylib: C Standard Library Rewrite}\end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Ylib is a modern rewrite of the C Standard Library that aims to enhance performance and maintainability while adhering to the ANSI C standard. It includes core C library components such as string manipulation, memory management, I/O operations, and math functions.
-                \item Tools Used: C, Makefile, GCC, GDB
-            \end{highlights}
-        \end{onecolentry}
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            \href{https://github.com/yuann3/push_swap}{École 42}
-        }
-            \textbf{Push Swap: Stack Sorting Algorithm}\end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Implemented a stack-based integer sorting algorithm in C, minimizing operations through greedy and divide-and-conquer strategies, achieving $\mathcal{O}(d(n + k))$ efficiency
-                \item Tools Used: C, Makefile, GCC, GDB
-            \end{highlights}
-        \end{onecolentry}
-
-
-    
 
 \end{document}
